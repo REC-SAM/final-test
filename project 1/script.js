@@ -105,7 +105,11 @@ function pause(forResetOrToggle = false) {
     }
 }
 
-// Function to start the Stop Watch.
+/* eslint-disable
+ * 
+ * Function to start the Stop Watch.
+ * This function will be called from a button in HTML
+**/
 function startStopWatch() {
     
     // For checking if the timer is already running.
@@ -135,15 +139,13 @@ function resetStopWatch() {
     pause(true);
     
     // Resetting the timer in the HTMl document.
-    
     writeStopwatch('00', '00', '00', '00');
-    
-       
-    
     
     // Resetting the elapsed time.
     elapsedTime = 0;
 }
+/* eslint-enable */
+
 
 // ----------------------------------------
 //      Main Logic for Countdown Timer  
@@ -155,7 +157,7 @@ let milliSecCountDown = 0;
 let timerIntervalCountDownTimerId = null;
 let hasPausedCountDownTimer = true;
 
-
+/* eslint-disable */
 // Function to set the Countdown Timer.
 function setCountDownTimer() {
     let min = parseFloat(prompt("Set your timer (in min):", "5.0"));
@@ -194,6 +196,7 @@ function startCountDownTimer() {
         }, 10);
     }
 }
+/* eslint-enable */
 
 // Function to reset the Countdown Timer.
 function resetCountDownTimer() {
