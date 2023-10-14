@@ -105,8 +105,7 @@ function pause(forResetOrToggle = false) {
     }
 }
 
-/* eslint-disable
- * 
+/*
  * Function to start the Stop Watch.
  * This function will be called from a button in HTML
 **/
@@ -144,7 +143,6 @@ function resetStopWatch() {
     // Resetting the elapsed time.
     elapsedTime = 0;
 }
-/* eslint-enable */
 
 
 // ----------------------------------------
@@ -157,7 +155,6 @@ let milliSecCountDown = 0;
 let timerIntervalCountDownTimerId = null;
 let hasPausedCountDownTimer = true;
 
-/* eslint-disable */
 // Function to set the Countdown Timer.
 function setCountDownTimer() {
     let min = parseFloat(prompt("Set your timer (in min):", "5.0"));
@@ -196,7 +193,6 @@ function startCountDownTimer() {
         }, 10);
     }
 }
-/* eslint-enable */
 
 // Function to reset the Countdown Timer.
 function resetCountDownTimer() {
@@ -205,3 +201,9 @@ function resetCountDownTimer() {
     milliSecCountDown = 0;
     isTimerSet = false;
 }
+
+// Linking js functions to buttons
+document.getElementById("myButton1").addEventListener("click1", startStopWatch);
+document.getElementById("myButton2").addEventListener("click2", resetStopWatch);
+document.getElementById("myButton3").addEventListener("click3", setCountDownTimer);
+document.getElementById("myButton4").addEventListener("click4", startCountDownTimer);
