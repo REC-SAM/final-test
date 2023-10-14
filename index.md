@@ -7,6 +7,9 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 <div align="center">
 
 <!-- TABLE BEGINS -->
+| Project Title | Contributor Names | Pull Requests | Demo |
+| --- | --- | --- | --- |
+| project 1 | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#2](https://github.com/iamwatchdogs/final-test/pull/2 "visit pr \#2") | [/iamwatchdogs/final-test/project 1/](project%201 "view the result of project 1") |
 <!-- TABLE ENDS -->
 
 </div>
