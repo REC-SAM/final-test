@@ -10,6 +10,7 @@ Welcome to **Javascript-Projects**, your friendly initiation into the world of o
 | Project Title | Contributor Names | Pull Requests | Demo |
 | --- | --- | --- | --- |
 | project 1 | [iamwatchdogs](https://github.com/iamwatchdogs "goto iamwatchdogs profile") | [#2](https://github.com/iamwatchdogs/final-test/pull/2 "visit pr \#2") | [/iamwatchdogs/final-test/project 1/](project%201 "view the result of project 1") |
+| project-2 | [REC-SAM](https://github.com/REC-SAM "goto REC-SAM profile") | [#3](https://github.com/iamwatchdogs/final-test/pull/3 "visit pr \#3") | [/iamwatchdogs/final-test/project-2/](project-2 "view the result of project-2") |
 <!-- TABLE ENDS -->
 
 </div>

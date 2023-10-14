@@ -7,5 +7,14 @@
       "2"
     ],
     "demo-path": "project%201"
+  },
+  "project-2": {
+    "contributor-name": [
+      "REC-SAM"
+    ],
+    "pull-request-number": [
+      "3"
+    ],
+    "demo-path": "project-2"
   }
 }
